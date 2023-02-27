@@ -19,8 +19,7 @@ module.exports = {
   },
   locals: {
     global: {
-      photo: 'https://czechvisual.space/_cdn/czechvisual/maildevelop/assets/profile-photo.png',
-      logo: 'https://czechvisual.space/_cdn/czechvisual/maildevelop/assets/logo_maildevelop.png'
+      ig: 'https://czechvisual.space/bebarova/emailing/assets/icon_instagram.png'
     }
   }
 }

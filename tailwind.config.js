@@ -9,9 +9,9 @@ module.exports = {
       inherit: 'inherit',
       black: '#000',
       white: '#ffffff',
-      gray: '#808080',
-      primary: '#363073',
-      secondary: '#DBFF00'
+      gray: '#222E34',
+      primary: '#CF968D',
+      secondary: ''
     },
     extend: {
       spacing: {
@@ -110,7 +110,7 @@ module.exports = {
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.05)',
       },
       fontFamily: {
-        sans: ['"Hind"', 'ui-sans-serif', 'system-ui', '-apple-system', '"Hind"', 'sans-serif'],
+        sans: ['"Noto Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', '"Hind"', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
       },
@@ -119,8 +119,8 @@ module.exports = {
         xxs: '9px',
         xs: '10px',
         sm: '11px',
-        base: '13px',
-        lg: '16px',
+        base: '11px',
+        lg: '14px',
         xl: '20px',
         '2xl': '24px',
         '3xl': '30px',
