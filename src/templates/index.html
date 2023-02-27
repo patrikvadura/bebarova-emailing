@@ -1,0 +1,56 @@
+---
+name: "Patrik Vaďura"
+phone: "+420 725 007 655"
+email: "hello@czechvisual.cz"
+website: "czechvisual.cz"
+job: "Manažer, Partner"
+---
+
+<!--
+  HTML template
+  Email signature
+  @Author: Patrik Vaďura | czechvisual
+  @package maildevelop
+-->
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-600 font-sans sm:w-full">
+      <tr>
+        <td align="center">
+          <component src="src/components/body.html"></component>
+
+          <table class="w-600 sm:w-full">
+            <tr>
+              <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                <img src="{{ global.photo }}" width="70" style="width: 70px!important;">
+              </td>
+
+              <td class="w-5/6 pl-0 sm:w-3/4">
+                <a href="https://saroli.cz">
+                  <img src="{{ global.logo }}" width="120" style="width: 120px!important;">
+                </a>
+
+                <p class="m-0 text-base text-saroli">
+                  <span class="font-bold">{{ page.name }}</span> | {{ page.job }}
+                </p>
+
+                <p class="m-0 font-light text-gray text-base">
+                  <a href="tel:{{ page.phone }};" class="text-gray grayLinks">
+                    {{ page.phone }}
+                  </a> |
+                  <a href="tel:{{ page.email }};" class="text-gray grayLinks">
+                    {{ page.email }}
+                  </a> |
+                  <a href="https://{{ page.website }}" class="text-gray grayLinks">
+                    {{ page.website }}
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>

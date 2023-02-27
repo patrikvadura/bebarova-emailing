@@ -1,0 +1,62 @@
+/*
+ * CSS styles | Mobile first
+ * Utilities
+ * @Author: Patrik Vaďura | czechvisual
+ * @package maildevelop
+*/
+
+/* Variables */
+:root {
+  --saroli: #1A1A44;
+  --forte: #F1AB00;
+  --partneri: #5B329A;
+  --sport: #0AF17A;
+  --gray: #808080;
+}
+
+.saroliLinks {
+  color: var(--saroli) !important;
+  text-decoration: none !important;
+}
+
+.forteLinks {
+  color: var(--forte) !important;
+  text-decoration: none !important;
+}
+
+.partneriLinks {
+  color: var(--partneri) !important;
+  text-decoration: none !important;
+}
+
+.sportLinks {
+  color: var(--sport) !important;
+  text-decoration: none !important;
+}
+
+.grayLinks {
+  color: var(--gray) !important;
+  text-decoration: none !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+@layer utilities {
+  .break-word {
+    word-break: break-word;
+  }
+}

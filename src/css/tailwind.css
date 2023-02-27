@@ -1,0 +1,19 @@
+/*
+ * CSS styles | Mobile first
+ * Tailwind
+ * @Author: Patrik Vaďura | czechvisual
+ * @package maildevelop
+*/
+
+/* Tailwind CSS components */
+@import "tailwindcss/components";
+
+/* Tailwind CSS utility classes */
+@import "tailwindcss/utilities";
+
+/* Your custom utility classes */
+@import "utilities";
+
+:root {
+  color-scheme: light dark;
+}
